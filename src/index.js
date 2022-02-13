@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/goit-react-hw-05-movies/">
       <Layout />
       <ToastContainer />
     </BrowserRouter>
